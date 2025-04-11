@@ -1024,6 +1024,9 @@ footer .social-icon {
     background-repeat: no-repeat;
     
   }
+  html {
+    overflow-x: hidden;
+  }
 
 
 }
