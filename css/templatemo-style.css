@@ -686,7 +686,7 @@ http://www.templatemo.com/tm-516-known
   -----------------------------------------*/
 
   #contact {
-    background: #d1b851;
+    background: #ffde59;
   }
 
   #contact h2 {
@@ -995,6 +995,27 @@ http://www.templatemo.com/tm-516-known
       width: inherit;
       height: inherit;
     }
+
+    .home-slider .item-first {
+      background-image: url(../images/afti-mobile.png);
+    background-position: center;
+    height: 750px;
+    }
+  
+
   }
+
+  @media only screen and (max-width: 767px) {
+    #home .caption h1,
+    #home .caption h3 {
+      display: none;
+    }
+  
+    #home .caption a.section-btn {
+      margin-top: 300px !important;
+      display: inline-block;
+    }
+  }
+  
   
   
